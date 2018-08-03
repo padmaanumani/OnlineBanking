@@ -17,7 +17,7 @@ public class Bank_Detail implements Serializable {
 	private Long bank_id;
 	private String bank_branch_name;
 	private String bank_branch_add;
-	private String bank_branch_city;
+	private String bank_branch_cityy;
 	private String bank_branch_phone;
 
 	@Id

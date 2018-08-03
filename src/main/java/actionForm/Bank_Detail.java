@@ -13,7 +13,7 @@ public class Bank_Detail implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 7250704876671468382L;
-	private Long id;
+	private Long idd;
 	private Long bank_id;
 	private String bank_branch_name;
 	private String bank_branch_add;

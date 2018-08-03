@@ -15,7 +15,7 @@ public class Bank_Detail_Action extends ActionSupport {
 	private static final long serialVersionUID = 6892991934480201178L;
 	private List<Bank_Detail> detailList;
 	private Bank_Detail_DaoImpl detailMan = new Bank_Detail_DaoImpl();
-	private Bank_Detail detailss;
+	private Bank_Detail details;
 
 
 	@Override

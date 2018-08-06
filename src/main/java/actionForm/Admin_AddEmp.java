@@ -1,4 +1,4 @@
-package actionForm;
+package actionFormm;
 
 import java.io.Serializable;
 import javax.persistence.*;

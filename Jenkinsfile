@@ -1,3 +1,4 @@
+env.dockerimagename="devopsbasservice/buildonframework:spabuildon-pcf"
 node {
 
    stage ('Build') {

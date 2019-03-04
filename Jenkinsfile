@@ -1,11 +1,8 @@
-pipeline {
-    agent any
-    stages {
-        stage('build') {
-            steps {
-                sh 'mvn --version'
-                sh 'mvn clean package'
-            }
-        }
-    }
+node {
+
+   stage ('Build') {
+     checkout scm
+     echo 'Helloww!'
+  }
+
 }

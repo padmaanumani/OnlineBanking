@@ -12,6 +12,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<sonar.language>java</sonar.language>
 	</properties>
+	
 	<dependencies>
 
 		<dependency>
@@ -196,7 +197,20 @@
       </plugin>
 	</plugins>
   </reporting>
-	
+  <profiles>
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <!-- Optional URL to server. Default value is http://localhost:9000 -->
+                <sonar.host.url>
+                  http://10.224.90.57:9000
+                </sonar.host.url>
+            </properties>
+        </profile>
+     </profiles>	
 </project>
 <!-- just Added a comment from Mayank -2 - another deploy failure-->
 <!-- Just a change to edit comment message test -->

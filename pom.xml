@@ -208,6 +208,8 @@
                 <sonar.host.url>
                   http://10.224.90.57:9000
                 </sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password>
             </properties>
         </profile>
      </profiles>	

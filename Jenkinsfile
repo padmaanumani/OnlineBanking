@@ -1,7 +1,7 @@
 node {
 
    stage('Preparation') { //for display purposes
-      git 'https://github.com/sunlove123/onlinebanking.git'
+      git 'https://github.com/padmaanumani/OnlineBanking'
       // Get the Maven tool.
       // ** NOTE: This 'M3' Maven tool must be configured
       // **       in the global configuration.           

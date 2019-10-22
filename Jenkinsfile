@@ -9,8 +9,8 @@ node {
    stage('Build') {
       // Run the maven build<appndid>
 
-         sh "mvn clean package -DskipTests=True"
-         sh "mvn clean package sonar:sonar"
+         sh "mvn clean package sonar:sonar -DskipTests=True"
+         
      
    }
    stage('Results') {
